@@ -15,6 +15,7 @@ public class For1 {
 		
 		for (int contador = 01;contador <= 10;contador++) {
 			System.out.printf("i = %d \n", contador);
+		}
 			// ++ icrementa de um em um
 			// += 2 incrementa de dois em dois
 			
@@ -25,7 +26,6 @@ public class For1 {
 			//depos abre o bloco
 			
 			
-		}
 		
 	}
 }

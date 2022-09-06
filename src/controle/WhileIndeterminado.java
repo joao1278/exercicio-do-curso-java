@@ -12,7 +12,7 @@ public class WhileIndeterminado {
 		
 		String valor = "";
 		// ja que eu quero que ele execulte
-		//snpre que o que for digitado seja diferente de "sair"
+		//snpre que o valor que for digitado seja diferente de "sair"
 		//damos uma negação antes da centença 
 	//colocando uma exclamação antes do (equals)
 		while (!valor.equalsIgnoreCase("sair"))
