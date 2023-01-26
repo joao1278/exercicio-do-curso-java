@@ -9,7 +9,7 @@ public class DesafioDiaSemana {
 		Scanner entrada = new Scanner(System.in);
 		// quando for usar o scanner na variavel
 		// coloque o ".next"
-		
+	
 		
 		System.out.print("dia da semana: ");
 		String dia = entrada.next();

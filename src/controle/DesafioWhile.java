@@ -20,8 +20,9 @@ public class DesafioWhile {
 		nota = entrada.nextDouble();//usuario digita a nota
 		
 		if (nota <= 10 && nota >=0) {
-			total += nota;                //nesse cenario apenas concideraçao
-			quantidadesDeNotas++;          // de notas validas
+			total += nota; //atribuicao adtiva//nesse cenario apenas concideraçao
+			quantidadesDeNotas++;                      // de notas validas
+			//incremento em cima da quantidade de notas
 		} else if (nota!=-1) {
 			System.out.println("nota invalida!!!  ;D");
 		}

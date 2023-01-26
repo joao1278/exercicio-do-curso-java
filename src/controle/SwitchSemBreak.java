@@ -4,14 +4,13 @@ public class SwitchSemBreak {
 	
 	public static void main(String[] args) {
 		
-		
 		// if (bool)
 		//while(bool)
 		//for(;bool;)
 		
 		// apos o "case"
 		//por apenas dois pontos (:)
-		String faixa = "verde";
+		String faixa = "preta";
 		switch (faixa.toLowerCase()) {
 		case "preta":
 			System.out.println("sei o bassai");
@@ -32,6 +31,18 @@ public class SwitchSemBreak {
 		}
 		
 		System.out.println("fim");
+		
+		int idade = 3;
+		
+		switch (idade) {
+		case 3:
+			System.out.println("sabe programar");
+		case 2: 
+			System.out.println("sabe falar");
+		case 1 : 
+			System.out.println("sabe olhar");
+			
+		}
 		
 		
 	}
